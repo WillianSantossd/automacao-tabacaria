@@ -1,20 +1,29 @@
-# Automação Tabacaria
+# 🛒 Automação Tabacaria
 
-Projeto em Python que automatiza a coleta de dados de produtos utilizando Selenium e salva em planilha Excel.
+Projeto em Python para automação de coleta de dados de produtos de um site e armazenamento em planilhas Excel.
 
-## Tecnologias
+## 🚀 Funcionalidades
+- Coleta automática de dados com Selenium
+- Extração de nome, preço e código do produto
+- Geração de planilha Excel com os dados
+
+## 🛠️ Tecnologias utilizadas
 - Python
 - Selenium
+- WebDriver Manager
 - OpenPyXL
 
-## Como rodar
+## 📦 Como executar o projeto
+
 ```bash
+# Clone o repositório
+git clone https://github.com/WillianSantossd/Automacaotabacaria.git
+
+# Acesse a pasta
+cd Automacaotabacaria
+
+# Instale as dependências
 pip install -r requirements.txt
-python main.py
 
----
-
-## 2. Criar requirements.txt
-
-```bash
-pip freeze > requirements.txt
+# Execute o projeto
+python src/main.py
