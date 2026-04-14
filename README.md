@@ -1,29 +1,49 @@
-# 🛒 Automação Tabacaria
+# Automação Tabacaria
 
-Projeto em Python para automação de coleta de dados de produtos de um site e armazenamento em planilhas Excel.
+## Installation Instructions
 
-## 🚀 Funcionalidades
-- Coleta automática de dados com Selenium
-- Extração de nome, preço e código do produto
-- Geração de planilha Excel com os dados
+To install the project, you need to have [Node.js](https://nodejs.org/) installed on your machine. Once you have Node.js, follow these steps:
 
-## 🛠️ Tecnologias utilizadas
-- Python
-- Selenium
-- WebDriver Manager
-- OpenPyXL
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/WillianSantossd/automacao-tabacaria.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd automacao-tabacaria
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-## 📦 Como executar o projeto
+## Usage Guide
 
+To run the application, use the following command:
 ```bash
-# Clone o repositório
-git clone https://github.com/WillianSantossd/Automacaotabacaria.git
+npm start
+```
 
-# Acesse a pasta
-cd Automacaotabacaria
+The application will start, and you can access it on your local machine.
 
-# Instale as dependências
-pip install -r requirements.txt
+## Project Structure
 
-# Execute o projeto
-python src/main.py
+- `src/` - contains the source code
+- `public/` - contains static files
+- `package.json` - contains project dependencies and scripts
+
+## Features
+
+- Feature 1: Description
+- Feature 2: Description
+- Feature 3: Description
+
+## Contributing Guidelines
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a Pull Request.
+
+Thank you for contributing!
